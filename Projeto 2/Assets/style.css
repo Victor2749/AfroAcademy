@@ -1,0 +1,94 @@
+* {
+    padding: 0;
+    margin: 0;
+
+    font-family: sans-serif;
+}
+
+main {
+    display: flex;
+}
+
+#conteudo {
+    width: 100%;
+    height: 100%;
+}
+
+#imagem {
+    height: 100vh;
+}
+
+#lista {
+    display: flex;
+    justify-content: flex-end;
+    gap: 20px;
+    list-style: none;
+
+    margin-top: 30px;
+}
+
+nav {
+    margin-right: 40px;
+    font-weight: bold;
+}
+
+.items_Lista {
+    cursor: pointer;
+
+    padding: 5px 10px;
+    border-radius: 40px;
+
+    transition: 0.3s;
+}
+
+.items_Lista:hover {
+    transition: 0.3s;
+    border-radius: 40px;
+    background-color: rgb(199, 199, 199);
+}
+
+#informacoes {
+    margin-right: 400px;
+    padding: 0 10px;
+    height: 500px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    gap: 30px;
+}
+
+#informacoes p {
+    color: rgb(101, 101, 101);
+    font-size: 15px;
+}
+
+#btns {
+    gap: 10px;
+
+    display: flex;
+    flex-direction: row;
+}
+
+#btn_Download,
+#btn_SignIn {
+    border: 2px solid black;
+    padding: 15px 50px;
+    border-radius: 5px;
+    cursor: pointer;
+
+    transition: .3s;
+}
+
+#btn_Download {
+    color: white;
+    background-color: rgb(26, 24, 24);
+}
+
+#btn_Download:hover,
+#btn_SignIn:hover{
+    transition: 0.3s;
+    transform: translateY(-3px);
+}
