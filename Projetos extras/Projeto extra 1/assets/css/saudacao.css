@@ -20,8 +20,6 @@
     font-size: 1.25rem;
 
     margin: 3rem 0 4rem;
-
-    columns: var(--text);
 }
 
 .dev-info a {
