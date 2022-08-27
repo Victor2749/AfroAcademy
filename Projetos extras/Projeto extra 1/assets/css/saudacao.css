@@ -1,5 +1,6 @@
 .saudacao {
     height: calc(100vh - 4rem);
+    border: none;
 
     display: flex;
 
@@ -15,32 +16,14 @@
     color: var(--primary);
 }
 
-.dev-info p {
+.dev-info .descricao {
     max-width: 27.5rem;
-    font-size: 1.25rem;
-
-    margin: 3rem 0 4rem;
+    margin-top: 3rem;
 }
 
 .dev-info a {
-    display: block;
-
-    background-color: var(--primary);
-    color: var(--background);
-
-    padding: 1rem;
     width: 16.75rem;
-
-    text-align: center;
-    text-decoration: none;
-
     border-radius: 8px;
-
-    transition: filter .3s;
-}
-
-.dev-info a:hover {
-    filter: brightness(110%);
 }
 
 .imagem {
