@@ -1,0 +1,19 @@
+@import './assets/CSS/colors.scss';
+
+.header {
+  background-color: $green-300;
+
+  height: 4.5rem;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  p {
+    color: $white;
+    font-weight: 500;
+    font-size: 1.3rem;
+
+    width: 8.75rem;
+  }
+}
