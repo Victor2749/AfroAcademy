@@ -1,12 +1,11 @@
 import './assets/CSS/global.scss';
-
-import styles from './app.module.scss';
+import Header from './components/Header';
 
 function App() {
   return (
-    <header className={styles.header}>
-      <p>✓ AfroToDo</p>
-    </header>
+    <>
+      <Header />
+    </>
   );
 }
 
