@@ -1,0 +1,28 @@
+@import '../assets/Styles/colors.scss';
+
+.status {
+  font-size: 1.125rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+
+  span {
+    background-color: $grey-800;
+    color: $white;
+    border-radius: 2rem;
+
+    font-size: 0.75rem;
+    font-weight: 400;
+
+    padding: 1px 0.25rem;
+  }
+}
+
+.taskList {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+
+  margin-top: 1rem;
+}

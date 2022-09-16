@@ -1,10 +1,14 @@
-import './assets/CSS/global.scss';
-import Header from './components/Header';
+import './assets/Styles/global.scss';
+
+import { Header } from './components/Header';
+import { MainContainer } from './components/MainContainer';
 
 function App() {
   return (
     <>
       <Header />
+
+      <MainContainer />
     </>
   );
 }

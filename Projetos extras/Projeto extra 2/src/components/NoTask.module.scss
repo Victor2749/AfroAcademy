@@ -1,0 +1,24 @@
+@import '../assets/Styles/colors.scss';
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 2rem;
+
+  width: 100%;
+
+  svg {
+    width: 4.5rem;
+    height: 4.5rem;
+
+    color: $gray-500;
+  }
+
+  p {
+    color: $gray-500;
+    text-align: center;
+    font-size: 1rem;
+  }
+}

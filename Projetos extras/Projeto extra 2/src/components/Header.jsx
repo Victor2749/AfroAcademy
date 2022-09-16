@@ -1,6 +1,6 @@
 import styles from '../components/Header.module.scss';
 
-function Header() {
+export function Header() {
   return (
     <header className={styles.header}>
       <p>✓ AfroToDo</p>
@@ -8,4 +8,3 @@ function Header() {
   );
 }
 
-export default Header;
